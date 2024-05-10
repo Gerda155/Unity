@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -24,13 +24,14 @@ public class ShowTextScript : MonoBehaviour
     string text;
     public GameObject inputField;
     public GameObject displayField;
-
-    //Random don don ti gandon
+    string[] words = {"Sveiki ", "Jauku dienu ", "Labrīt ", "Labdien ", "Labvakar "};
+    int randomNumb;
 
     public void getText()
     {
+        randomNumb = Random.Range(0, words.Length);
         text = inputField.GetComponent<Text>().text;
-        displayField.GetComponent<Text>().text = "Privet " + text.ToLower() + "!";
+        displayField.GetComponent<Text>().text = words[randomNumb] + text.ToLower() + "!";
     }
 
 }

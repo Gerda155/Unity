@@ -1,9 +1,10 @@
 # Unity
 Unity 2D projekts
 ### Veicamo darbu saraksts
-- [ ] Projekta uzsākšana un izvietošana GitHub
-- [ ] Projekta mapju un failu izvietošana
-- [ ] InputField un Textm Button elementu lietojums
+- [x] Projekta uzsākšana un izvietošana GitHub
+- [x] Projekta mapju un failu izvietošana
+- [x] InputField un Textm Button elementu lietojums
+- [x] Pirmā c# skripta izveide 
 - [ ] Image un Toggle elementu lietojums
 - [ ] Panel un Toggle Group elementu lietošana
 - [ ] DropDown un Slidere elementu lietojums
