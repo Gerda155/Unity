@@ -5,8 +5,8 @@ Unity 2D projekts
 - [x] Projekta mapju un failu izvietošana
 - [x] InputField un Textm Button elementu lietojums
 - [x] Pirmā c# skripta izveide 
-- [ ] Image un Toggle elementu lietojums
-- [ ] Panel un Toggle Group elementu lietošana
+- [x] Image un Toggle elementu lietojums
+- [x] Panel un Toggle Group elementu lietošana
 - [ ] DropDown un Slidere elementu lietojums
 - [ ] Jaunas ainas ieviešana un pārsliegšana starp ainām
 - [ ] AudioSource un ScrollView komponenšu lietojums

@@ -731,14 +731,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481996282}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1725831813}
   - {fileID: 1144726925}
-  m_Father: {fileID: 1392636580}
+  m_Father: {fileID: 1007623551}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -788,11 +788,23 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1725831814}
   toggleTransition: 1
   graphic: {fileID: 906087313}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1007623552}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
-  m_IsOn: 1
+      m_Calls:
+      - m_Target: {fileID: 1464726198}
+        m_TargetAssemblyTypeName: ImageScript, Assembly-CSharp
+        m_MethodName: toRight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_IsOn: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,8 +931,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 276.1, y: 20.062}
-  m_SizeDelta: {x: 50, y: 40.1246}
+  m_AnchoredPosition: {x: 281.1897, y: 27.442}
+  m_SizeDelta: {x: 60.1795, y: 54.884}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &551901580
 MonoBehaviour:
@@ -1721,6 +1733,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994017349}
   m_CullTransparentMesh: 1
+--- !u!1 &1007623550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1007623551}
+  - component: {fileID: 1007623552}
+  m_Layer: 5
+  m_Name: Togle grup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1007623551
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007623550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 481996283}
+  - {fileID: 1725270101}
+  m_Father: {fileID: 1392636580}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.36865, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1007623552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007623550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 0
 --- !u!1 &1103674348
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,7 +2216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -151.37, y: 71.992355}
+  m_AnchoredPosition: {x: -151.36804, y: 71.99223}
   m_SizeDelta: {x: 120.6572, y: 143.9847}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1204957437
@@ -2519,9 +2582,8 @@ RectTransform:
   - {fileID: 551901579}
   - {fileID: 396316316}
   - {fileID: 1611046391}
-  - {fileID: 1725270101}
-  - {fileID: 481996283}
   - {fileID: 1464726197}
+  - {fileID: 1007623551}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2581,6 +2643,8 @@ MonoBehaviour:
   babka: {fileID: 396316315}
   mishka: {fileID: 551901578}
   mashinka: {fileID: 975170498}
+  left: {fileID: 1725270100}
+  right: {fileID: 481996282}
 --- !u!1 &1466099520
 GameObject:
   m_ObjectHideFlags: 0
@@ -2897,14 +2961,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725270100}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 801711403}
   - {fileID: 19987621}
-  m_Father: {fileID: 1392636580}
+  m_Father: {fileID: 1007623551}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2954,10 +3018,22 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 801711404}
   toggleTransition: 1
   graphic: {fileID: 961872576}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 1007623552}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1464726198}
+        m_TargetAssemblyTypeName: ImageScript, Assembly-CSharp
+        m_MethodName: toLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 1
 --- !u!1 &1725831812
 GameObject:
