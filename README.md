@@ -10,9 +10,9 @@ Unity 2D projekts
 - [x] DropDown un Slidere elementu lietojums
 - [x] AudioSource un ScrollView komponenšu lietojums
 - [x] DragAndDrop funkcionalitāte
-- [ ] Jaunas ainas ieviešana un pārsliegšana starp ainām
-- [ ] Rigibody un Collider komponenšu lietojums
-- [ ] Jiggly mājās
-- [ ] Sagatavošna Windows platformai
+- [x] Jaunas ainas ieviešana un pārsliegšana starp ainām
+- [x] Rigibody un Collider komponenšu lietojums
+- [x] Jiggly mājās
+- [x] Sagatavošna Windows platformai
 
   ![MR.Bean](https://p.kindpng.com/picc/s/207-2073294_10222-mr-bean-latex-mask-hd-png-download.png)
